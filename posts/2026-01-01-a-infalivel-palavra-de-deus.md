@@ -31,8 +31,6 @@ Ao longo de aproximadamente **1600 anos**, Deus usou cerca de **40 escritores**,
 - Escriba: **Esdras**
 - Mordomo / líder civil: **Neemias**
 
-Essa diversidade reforça a unidade e a inspiração divina das Escrituras.
-
 ---
 
 ## Divisão da Bíblia Protestante
