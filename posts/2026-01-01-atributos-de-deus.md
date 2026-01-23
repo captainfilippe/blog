@@ -3,7 +3,7 @@ title: "A infalível Palavra de Deus"
 author: "Filipe Alves de Lara"
 date: "2026-01-23"
 summary: "Uma introdução clássica à distinção entre os atributos divinos."
-image: "images/A infalível Palavra de Deus.jpg"
+image: "images/A infalível Palavra de Deus.jpeg"
 tags: ["teologia", "doutrina de Deus"]
 ---
 
