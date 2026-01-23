@@ -45,26 +45,36 @@ POSTS_DIR = "posts"
 
 def load_posts():
     posts = []
+
     if not os.path.exists(POSTS_DIR):
         return posts
 
     for file in os.listdir(POSTS_DIR):
-        if file.endswith(".md"):
-            path = os.path.join(POSTS_DIR, file)
+        if not file.endswith(".md"):
+            continue
 
-            with open(path, "r", encoding="utf-8") as f:
-                post = frontmatter.load(f)
+        path = os.path.join(POSTS_DIR, file)
 
-                posts.append({
-                    "slug": file.replace(".md", ""),
-                    "title": post.get("title", "Sem título"),
-                    "author": post.get("author", "Autor desconhecido"),
-                    "date": datetime.fromisoformat(post.get("date")),
-                    "summary": post.get("summary", ""),
-                    "content": post.content,
-                    "image": post.get("image"),
-                    "tags": post.get("tags", [])
-                })
+        with open(path, "r", encoding="utf-8") as f:
+            post = frontmatter.load(f)
+
+            # --- DATA SEGURA ---
+            raw_date = post.get("date")
+            try:
+                date = datetime.fromisoformat(str(raw_date))
+            except Exception:
+                date = datetime.now()
+
+            posts.append({
+                "slug": file.replace(".md", ""),
+                "title": post.get("title", "Sem título"),
+                "author": post.get("author", "Autor desconhecido"),
+                "date": date,
+                "summary": post.get("summary", ""),
+                "content": post.content,
+                "tags": post.get("tags", []),
+                "image": post.get("image", None)
+            })
 
     posts.sort(key=lambda x: x["date"], reverse=True)
     return posts
