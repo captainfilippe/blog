@@ -115,17 +115,16 @@ Ou seja, a Escritura é **“soprada por Deus”**.
 
 ### Visões incorretas sobre a inspiração
 
-- Inspiração mecânica ou ditada  
-- Inspiração meramente natural  
-- Inspiração apenas de conceitos, não de palavras  
-- Inspiração em graus diferentes  
-- Inspiração parcial  
+- **Escrita mecânica ou ditada** — Os escritores bíblicos não receberam o texto de forma ditada por Deus.
+- **Inspiração natural** — Os escritores, pelo seu nível espiritual, tiveram capacidade de escrever sobre coisas espirituais e sobre Deus.
+- **Inspiração de conceitos, não de palavras** — Os escritores receberam o conceito da inspiração e então escreveram do seu jeito, sem supervisão de Deus.
+- **Inspiração em graus diferentes** — Por exemplo, os evangelhos teriam mais autoridade do que os escritos de Paulo ou de Hebreus (cujo autor é desconhecido).
+- **Inspiração parcial** — A Bíblia contém a Palavra de Deus; apenas o que é doutrinário seria Palavra de Deus, enquanto as narrativas não o seriam.
 
-### Inspiração Plenária
+### Visão correta sobre a inspiração
 
-A visão bíblica correta é a **inspiração plenária**, onde:
+- **Inspiração Plenária** — O Espírito Santo guiou e inspirou os autores nas escolhas corretas das palavras, respeitando as características de cada cultura, estilo e vocabulário de cada autor. Foi uma participação de Deus com o homem.
 
-> O Espírito Santo guiou os autores nas escolhas exatas das palavras, respeitando seus estilos, culturas e vocabulários, garantindo a fidelidade da revelação divina.
 
 ---
 
