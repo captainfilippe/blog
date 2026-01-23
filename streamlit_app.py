@@ -27,8 +27,7 @@ st.markdown(
   gtag('config', 'G-FRX42JQ16R');
 </script>
     """,
-    unsafe_allow_html=True
-)
+    unsafe_allow_html=True)
 
 
 st.markdown("""
