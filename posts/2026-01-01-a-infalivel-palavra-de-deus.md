@@ -31,20 +31,6 @@ Fé na Palavra para conhecer o amor, o plano de salvação e a vontade de Deus.
 
 ---
 
-## Objetivo do curso
-
-Este curso foi pensado para introduzir novos membros na igreja **Casa de Oração**, começando pelos fundamentos básicos doutrinários da igreja:
-
-- Bíblia — A infalível Palavra de Deus  
-- O homem — O pecado e a separação de Deus  
-- Salvação  
-- Novo nascimento — Nova vida  
-- Oração — A linha direta com o Pai  
-- Dízimos e Ofertas — Generosidade e bênção  
-- Idolatria  
-- Batismo nas águas e a Ceia do Senhor  
-
----
 
 ## Bíblia — A infalível Palavra de Deus
 
