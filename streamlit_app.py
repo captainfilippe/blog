@@ -9,7 +9,7 @@ import frontmatter
 st.set_page_config(
     page_title="Rota Teológica",
     page_icon="⛵",
-    layout="wide"
+    layout="centered"
 )
 
 # =========================
