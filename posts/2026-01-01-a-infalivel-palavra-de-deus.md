@@ -2,113 +2,187 @@
 title: "A infalível Palavra de Deus"
 author: "Filipe Alves de Lara"
 date: "2026-01-23"
-summary: "Uma introdução clássica à distinção entre os atributos divinos."
+summary: "Um esboço introdutório para estudos sobre a Palavra de Deus"
 image: "images/A infalível Palavra de Deus.jpg"
-tags: ["teologia", "doutrina de Deus"]
+tags: ["teologia", "bíblia", "palavra", "inspiração"]
 ---
 
-### Introdução
+## Introdução
 
-Antigo testamento + Novo testamento = Bíblia
-39 Livros + 27 = 66 Livros
-40 Escritores
-Rei - Davi e Salomão
-sacerdote - profeta - Jeremias e Ezequiel
-médico - Lucas
-pescador - Pedro e João
-pastor - Moises e Amós
-fariseu - Paulo
-político - Daniel
-cobrador de impostos - Mateus
-soldado - Josué
-escriba - Esdras
-mordomo - Neemias
+A Bíblia é composta pelo **Antigo e Novo Testamento**, formando uma única revelação progressiva da Palavra de Deus.
 
-1600 anos
+- **Antigo Testamento:** 39 livros  
+- **Novo Testamento:** 27 livros  
+- **Total:** 66 livros  
 
-### Divisão da Bíblia Protestante
-O Antigo testamento é dividido em 4 grupos
-Lei
-Históricos
-Poéticos - Sabedoria
-Proféticos (profetas maiores e menores)
-O Novo testamento é dividido em 4 grupos
-Evangelhos
-Históricos
-Epístolas ou Cartas
-Profecia
+### Diversidade de autores
 
-### Bíblia Católica
-7 Livros a mais no Antigo Testamento
-Chamados por católicos de deuterocanônicos (e por protestantes de apócrifos):
-Tobias
-Judite
-Sabedoria
-Eclesiástico (Sirácida)
-Baruque
-1 Macabeus
-2 Macabeus
-acréscimos em Ester e Daniel
-Os protestantes seguem os livros que os judeus em 90 D.C No Sínodo de Jâmnia oficializaram como Padrão. 
-Os católicos utilizam o antigo testamento traduzido para o Grego como oficial. Septuaginta.
+Ao longo de aproximadamente **1600 anos**, Deus usou cerca de **40 escritores**, de diferentes contextos sociais, culturais e profissionais:
 
-### Evangelhos
-Mateus - Escrito para os Judeus: Jesus como Messias e Rei.
-Marcos - Escrito para os Romanos: Jesus como o Servo.
-Lucas - Escrito para os Gregos - Jesus como o homem perfeito.
-João - Escrito para a região da Ásia menor: Jesus em sua Divindade
+- Reis: **Davi, Salomão**
+- Sacerdotes e profetas: **Jeremias, Ezequiel**
+- Médico: **Lucas**
+- Pescadores: **Pedro, João**
+- Pastores: **Moisés, Amós**
+- Fariseu: **Paulo**
+- Político: **Daniel**
+- Cobrador de impostos: **Mateus**
+- Soldado: **Josué**
+- Escriba: **Esdras**
+- Mordomo / líder civil: **Neemias**
 
-### Inspiração
-2Pedro 1:20-21 NAA
-[20] Primeiramente, porém, saibam que nenhuma profecia da Escritura provém de interpretação pessoal; [21] porque nunca jamais qualquer profecia foi dada por vontade humana; entretanto, homens falaram da parte de Deus, movidos pelo Espírito Santo.
+Essa diversidade reforça a unidade e a inspiração divina das Escrituras.
 
-2 Timóteo 3:16-17 NAA
-[16] Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção, para a educação na justiça, [17] a fim de que o servo de Deus seja perfeito e perfeitamente habilitado para toda boa obra.
-Inspirada por Deus - no grego “THEOPNEUSTOS”, Literalmente “Soprado por Deus”. 
-THEO - Deus
-PNEUSTOS - Sopro
-Traduzido como inspirado por Deus, referente ao recebimento do homem a mensagem de Deus.
-Escrita mecânica ou ditada - Os escritores bíblicos não receberam o texto de forma ditada por Deus.
-Inspiração natural - Os escritores pelo seu nível espiritual, tiveram capacidade de escrever sobre coisas espirituais e sobre Deus.
-Inspiração de conceitos, não de palavras - Os escritores receberam o conceito da inspiração, então escreveram do seu jeito, sem supervisão de Deus.
-Inspiração em graus diferentes - Por exemplo, os evangelhos têm mais autoridade do que os escritos de Paulo ou de Hebreus (que não sabemos quem foi o autor).
-Inspiração Parcial - A bíblia contém a Palavra de Deus, somente o que é doutrinário é a Palavra de Deus, as histórias não são.
-Inspiração Plenária - O Espírito Santo guiou e inspirou os autores nas escolhas certas das palavras, respeitando as características de cada cultura, estilo, vocabulário de cada autor. Foi uma participação de Deus ao homem.
+---
 
-### Tipos de Revelação
-Revelação natural - Revelação através da Criação de Deus.
-Salmos 19:1-2 NAA
-[1] Os céus proclamam a glória de Deus, e o firmamento anuncia as obras das suas mãos. [2] Um dia discursa a outro dia, e uma noite revela conhecimento a outra noite.
-Revelação com intervenção divina - Revelação através de Deus intervir na história.
-Gênesis 12:1 NAA
-[1] O Senhor disse a Abrão: — Saia da sua terra, da sua parentela e da casa do seu pai e vá para a terra que lhe mostrarei. 
+## Divisão da Bíblia Protestante
 
-Revelação Especial - Revelação por meio da bíblia, Palavra de Deus, escrita por homens inspirados por Deus, soprado por Deus.
-Hebreus 4:12 NAA
-[12] Porque a palavra de Deus é viva e eficaz, e mais cortante do que qualquer espada de dois gumes, e penetra até o ponto de dividir alma e espírito, juntas e medulas, e é apta para julgar os pensamentos e propósitos do coração. 
+### Antigo Testamento
 
-Revelação encarnada - A Palavra de Deus se encarna em Cristo Jesus.
-João 1:1-3 NAA
-[1] No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus. [2] Ele estava no princípio com Deus. [3] Todas as coisas foram feitas por ele, e, sem ele, nada do que foi feito se fez. 
+Organizado em quatro grandes grupos:
 
-Hebreus 1:1-2 NAA
-[1] Antigamente, Deus falou, muitas vezes e de muitas maneiras, aos pais, pelos profetas, [2] mas, nestes últimos dias, nos falou pelo Filho, a quem constituiu herdeiro de todas as coisas e pelo qual também fez o universo. 
+1. **Lei**
+2. **Livros Históricos**
+3. **Livros Poéticos e de Sabedoria**
+4. **Livros Proféticos**  
+   - Profetas Maiores  
+   - Profetas Menores
 
-### Iluminação para entender
-É necessário pedir a Deus iluminação para o entendimento da Palavra, mesmo com estudos de forma acadêmica.
-Salmos 119:34 NAA
-[34] Dá-me entendimento, e guardarei a tua lei; de todo o coração a cumprirei.
+### Novo Testamento
 
-A iluminação é a capacidade dada pelo Espírito de Deus para crer e entender as passagens bíblicas.
-1 Coríntios 2:14 NAA
-[14] Ora, a pessoa natural não aceita as coisas do Espírito de Deus, porque lhe são loucura. E ela não pode entendê-las, porque elas se discernem espiritualmente. 
+Também dividido em quatro grupos:
 
-A Palavra de Deus sendo uma espada, possui uma dualidade, produzindo reações diferentes nas pessoas.
-Ela produz fé ou absurdo, loucura.
-Salvação ou condenação.
-Transformação do indivíduo ou Libertinagem por não crer.
-Amor a Deus ou amor às coisas do mundo.
-1 Coríntios 1:18-19 NAA
-[18] Certamente a palavra da cruz é loucura para os que se perdem, mas para nós, que somos salvos, ela é poder de Deus. [19] Pois está escrito: “Destruirei a sabedoria dos sábios e aniquilarei a inteligência dos inteligentes.”
+1. **Evangelhos**
+2. **Livro Histórico (Atos)**
+3. **Epístolas ou Cartas**
+4. **Livro Profético (Apocalipse)**
 
+---
 
+## A Bíblia Católica
+
+A Bíblia Católica contém **7 livros adicionais no Antigo Testamento**, chamados pelos católicos de **deuterocanônicos** e pelos protestantes de **apócrifos**:
+
+- Tobias  
+- Judite  
+- Sabedoria  
+- Eclesiástico (Sirácida)  
+- Baruque  
+- 1 Macabeus  
+- 2 Macabeus  
+
+Além disso, há **acréscimos nos livros de Ester e Daniel**.
+
+### Diferença de cânon
+
+- Os **protestantes** seguem o cânon hebraico, reconhecido pelos judeus no **Sínodo de Jâmnia (90 d.C.)**
+- Os **católicos** utilizam como base o Antigo Testamento em grego, a **Septuaginta**
+
+---
+
+## Os Evangelhos
+
+Cada evangelho foi escrito com um público e ênfase específicos:
+
+- **Mateus** — Judeus  
+  *Jesus como o Messias e Rei*
+
+- **Marcos** — Romanos  
+  *Jesus como o Servo*
+
+- **Lucas** — Gregos  
+  *Jesus como o Homem perfeito*
+
+- **João** — Ásia Menor  
+  *Jesus em sua plena Divindade*
+
+---
+
+## A Inspiração das Escrituras
+
+> **2 Pedro 1:20–21 (NAA)**  
+> “Primeiramente, porém, saibam que nenhuma profecia da Escritura provém de interpretação pessoal; porque nunca jamais qualquer profecia foi dada por vontade humana; entretanto, homens falaram da parte de Deus, movidos pelo Espírito Santo.”
+
+> **2 Timóteo 3:16–17 (NAA)**  
+> “Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção, para a educação na justiça, a fim de que o servo de Deus seja perfeito e perfeitamente habilitado para toda boa obra.”
+
+### O termo *Theopneustos*
+
+A expressão “inspirada por Deus” vem do grego **THEOPNEUSTOS**, que significa literalmente:
+
+- **THEO** — Deus  
+- **PNEUSTOS** — Sopro  
+
+Ou seja, a Escritura é **“soprada por Deus”**.
+
+### Visões incorretas sobre a inspiração
+
+- Inspiração mecânica ou ditada  
+- Inspiração meramente natural  
+- Inspiração apenas de conceitos, não de palavras  
+- Inspiração em graus diferentes  
+- Inspiração parcial  
+
+### Inspiração Plenária
+
+A visão bíblica correta é a **inspiração plenária**, onde:
+
+> O Espírito Santo guiou os autores nas escolhas exatas das palavras, respeitando seus estilos, culturas e vocabulários, garantindo a fidelidade da revelação divina.
+
+---
+
+## Tipos de Revelação
+
+### Revelação Natural
+
+Deus se revela por meio da criação.
+
+> **Salmos 19:1–2 (NAA)**  
+> “Os céus proclamam a glória de Deus, e o firmamento anuncia as obras das suas mãos.”
+
+### Revelação com intervenção divina
+
+Deus age diretamente na história.
+
+> **Gênesis 12:1 (NAA)**  
+> “O Senhor disse a Abrão: ‘Saia da sua terra, da sua parentela e da casa do seu pai…’”
+
+### Revelação Especial
+
+Deus se revela por meio da Escritura.
+
+> **Hebreus 4:12 (NAA)**  
+> “Porque a palavra de Deus é viva e eficaz, e mais cortante do que qualquer espada de dois gumes…”
+
+### Revelação Encarnada
+
+A Palavra de Deus se manifesta plenamente em Cristo.
+
+> **João 1:1–3 (NAA)**  
+> “No princípio era o Verbo…”
+
+> **Hebreus 1:1–2 (NAA)**  
+> “Nestes últimos dias, nos falou pelo Filho…”
+
+---
+
+## Iluminação para o Entendimento
+
+Além do estudo acadêmico, é necessária a **iluminação do Espírito Santo** para compreender plenamente a Palavra de Deus.
+
+> **Salmos 119:34 (NAA)**  
+> “Dá-me entendimento, e guardarei a tua lei…”
+
+> **1 Coríntios 2:14 (NAA)**  
+> “A pessoa natural não aceita as coisas do Espírito de Deus…”
+
+### A dualidade da Palavra
+
+A Palavra de Deus produz efeitos distintos:
+
+- Fé ou rejeição  
+- Salvação ou condenação  
+- Transformação ou endurecimento  
+
+> **1 Coríntios 1:18–19 (NAA)**  
+> “A palavra da cruz é loucura para os que se perdem, mas para nós, que somos salvos, é poder de Deus.”
