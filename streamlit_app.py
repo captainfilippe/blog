@@ -2,7 +2,9 @@ import streamlit as st
 import os
 from datetime import datetime
 import frontmatter
-import streamlit.components.v1 as components
+import requests
+import uuid
+
 # =========================
 # CONFIGURAÇÃO DA PÁGINA
 # =========================
@@ -12,61 +14,54 @@ st.set_page_config(
     layout="centered"
 )
 
-components.html(
-    """
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRX42JQ16R"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-FRX42JQ16R', {
-        'send_page_view': true
-      });
-    </script>
-    """,
-    height=0,
+
+MEASUREMENT_ID = "G-FRX42JQ16R"
+API_SECRET = "UzllgCsCTTugrmE7114Bmg"
+
+client_id = str(uuid.uuid4())
+
+requests.post(
+    f"https://www.google-analytics.com/mp/collect?measurement_id={MEASUREMENT_ID}&api_secret={API_SECRET}",
+    json={
+        "client_id": client_id,
+        "events": [
+            {
+                "name": "page_view",
+                "params": {
+                    "page_title": "Rota Teológica",
+                    "page_location": "https://rotateologica.streamlit.app"
+                }
+            }
+        ]
+    }
 )
 
 # =========================
 # CSS BÁSICO (LEITURA)
 # =========================
-st.markdown(
-    """
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FRX42JQ16R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-FRX42JQ16R');
-</script>
-    """,
-    unsafe_allow_html=True)
-
-
-# st.markdown("""
-# <style>
-# .post-title {
-#     font-size: 26px;
-#     font-weight: 600;
-#     margin-bottom: 4px;
-# }
-# .post-meta {
-#     color: #777;
-#     font-size: 14px;
-#     margin-bottom: 16px;
-# }
-# .post-card {
-#     max-width: 820px;
-#     margin: auto;
-#     margin-bottom: 48px;
-# }
-# .post-image img {
-#     border-radius: 6px;
-# }
-# </style>
-# """, unsafe_allow_html=True)
+st.markdown("""
+<style>
+.post-title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.post-meta {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.post-card {
+    max-width: 820px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+.post-image img {
+    border-radius: 6px;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # =========================
 # FUNÇÕES
