@@ -30,28 +30,28 @@ st.markdown(
     unsafe_allow_html=True)
 
 
-st.markdown("""
-<style>
-.post-title {
-    font-size: 26px;
-    font-weight: 600;
-    margin-bottom: 4px;
-}
-.post-meta {
-    color: #777;
-    font-size: 14px;
-    margin-bottom: 16px;
-}
-.post-card {
-    max-width: 820px;
-    margin: auto;
-    margin-bottom: 48px;
-}
-.post-image img {
-    border-radius: 6px;
-}
-</style>
-""", unsafe_allow_html=True)
+# st.markdown("""
+# <style>
+# .post-title {
+#     font-size: 26px;
+#     font-weight: 600;
+#     margin-bottom: 4px;
+# }
+# .post-meta {
+#     color: #777;
+#     font-size: 14px;
+#     margin-bottom: 16px;
+# }
+# .post-card {
+#     max-width: 820px;
+#     margin: auto;
+#     margin-bottom: 48px;
+# }
+# .post-image img {
+#     border-radius: 6px;
+# }
+# </style>
+# """, unsafe_allow_html=True)
 
 # =========================
 # FUNÇÕES
