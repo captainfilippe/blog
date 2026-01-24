@@ -5,12 +5,6 @@ date: "2026-01-23"
 summary: "Um esboço introdutório para estudos sobre a Palavra de Deus"
 image: "images/A infalível Palavra de Deus.jpg"
 tags: ["teologia", "bíblia", "palavra", "inspiração"]
----
-
-## Apresentação
-
-Os temas abordados trarão segurança para o cristão referente à sua fé.  
-Esta segurança sempre virá da Bíblia, a Palavra de Deus.
 
 ---
 
