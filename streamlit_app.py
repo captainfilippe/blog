@@ -170,6 +170,8 @@ with col2:
     st.caption("Artigos semanais sobre Escritura e teologia")
 st.divider()
 
+st.link_button("📡 Assinar RSS", "https://rotateologica.streamlit.app/rss.xml")
+
 # =========================
 # VIEW: POST INDIVIDUAL
 # =========================
