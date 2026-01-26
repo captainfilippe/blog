@@ -222,7 +222,7 @@ else:
 
             st.markdown("</div>", unsafe_allow_html=True)
 
-RSS_PATH = pathlib.Path("rss.xml")
+RSS_PATH = "rss.xml"
 
 if RSS_PATH.exists():
     st.markdown(
