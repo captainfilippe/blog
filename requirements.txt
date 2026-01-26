@@ -1,3 +1,4 @@
 streamlit
 python-frontmatter
 Markdown
+Pillow
