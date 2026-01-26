@@ -68,13 +68,6 @@ div[data-testid="stVerticalBlock"] > div:has(div.post-card) {
     height: 100px !important;
 }
 
-/* Força a imagem a ter um tamanho fixo e cortar o excesso sem deformar */
-.fixed-image img {
-    width: 100px !important;
-    height: 100px !important;
-    object-fit: cover; /* Faz o "crop" inteligente da imagem */
-    border-radius: 8px;
-}
 </style>
 """, unsafe_allow_html=True)
 
@@ -112,15 +105,7 @@ def load_posts():
                 "author": post.get("author", "Autor desconhecido"),
                 "date": date,
                 "summary": post.get("summary", ""),
-                "content": markdown.markdown(
-                    post.content,
-                    extensions=[
-                        "fenced_code",
-                        "tables",
-                        "toc",
-                        "nl2br"
-                    ]
-                ),
+                "content": post.content,
                 "tags": post.get("tags", []),
                 "image": post.get("image", None)
             })
@@ -167,10 +152,7 @@ if "post" in st.session_state:
         st.image(img)
 
     st.markdown(f"<div class='post-title'>{post['title']}</div>", unsafe_allow_html=True)
-    st.markdown(
-        f"<div class='post-meta'>{post['author']} · {post['date'].strftime('%d %b %Y')}</div>",
-        unsafe_allow_html=True
-    )
+    st.markdown(f"<div class='post-meta'>{post['author']} · {post['date'].strftime('%d %b %Y')}</div>", unsafe_allow_html=True)
 
     st.markdown(post["content"], unsafe_allow_html=True)
 
@@ -193,7 +175,8 @@ else:
                         img = img.resize((600, 250))  # largura, altura
                         st.image(img)
                     st.markdown(f"<div class='post-title' style='font-size:20px;'>{post['title']}</div>", unsafe_allow_html=True)
-                    st.caption(f"{post['date'].strftime('%d %b %Y')}")
+                    #st.markdown(f"<div class='post-meta'>{post['author']} · {post['date'].strftime('%d %b %Y')}</div>", unsafe_allow_html=True)
+                    st.caption(f"{post['author']} · {post['date'].strftime('%d %b %Y')}")
                     st.write(post["summary"][:100] + "...") # Resumo curto
                     if st.button("Leia mais", key=post["slug"]):
                         st.session_state["post"] = post["slug"]
