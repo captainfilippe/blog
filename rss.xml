@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Rota Teológica</title>
+  <link>https://rotateologica.streamlit.app</link>
+  <description>Artigos semanais sobre Escritura e teologia</description>
+  
+    <item>
+      <title>A infalível Palavra de Deus</title>
+      <link>https://rotateologica.streamlit.app/?post=2026-01-23-a-infalivel-palavra-de-deus</link>
+      <guid>https://rotateologica.streamlit.app/?post=2026-01-23-a-infalivel-palavra-de-deus</guid>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+      <description>Um esboço introdutório para estudos sobre a Palavra de Deus</description>
+    </item>
+    
+    <item>
+      <title>O pecado e a separação de Deus</title>
+      <link>https://rotateologica.streamlit.app/?post=2026-01-23-o-pecado-e-a-separacao-de-deus</link>
+      <guid>https://rotateologica.streamlit.app/?post=2026-01-23-o-pecado-e-a-separacao-de-deus</guid>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+      <description>Um esboço introdutório para estudos sobre o homem e o pecado</description>
+    </item>
+    
+</channel>
+</rss>
