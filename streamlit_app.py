@@ -188,8 +188,9 @@ if "post" in st.session_state:
     st.markdown(f"<div class='post-title'>{post['title']}</div>", unsafe_allow_html=True)
     st.markdown(f"<div class='post-meta'>{post['author']} · {post['date'].strftime('%d %b %Y')}</div>", unsafe_allow_html=True)
 
+    st.divider()
     st.markdown(post["content"], unsafe_allow_html=True)
-
+    st.divider()
     if post["tags"]:
         st.markdown("**Tags:** " + ", ".join(post["tags"]))
 
