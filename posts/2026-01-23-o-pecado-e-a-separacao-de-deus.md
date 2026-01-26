@@ -182,14 +182,19 @@ A vontade existe, mas a inclinação do pecado impede que ela seja plenamente pr
 
 Agostinho citou que o homem foi criado com duas possibilidades:
 **Posse peccare - posso pecar.**
+
 **Posse non peccare - posso não pecar**
 
 Mas que após a queda o homem perdeu o termo: 
+
 **posse non peccare - Posso não pecar.**
+
 E ganhou o termo: 
+
 **non posse non peccare - Não posso não pecar.**
 
 
 > **João Calvino**  
 > “Tudo o que você vê de bom em mim é Cristo. Tudo o que você vê de mau em mim sou eu mesmo.”
+
 
