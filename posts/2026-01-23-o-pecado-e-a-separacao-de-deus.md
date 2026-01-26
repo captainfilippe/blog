@@ -180,15 +180,16 @@ A vontade existe, mas a inclinação do pecado impede que ela seja plenamente pr
 > Porque não faço o bem que eu quero, mas o mal que não quero, esse faço.  
 > Mas, se eu faço o que não quero, já não sou eu quem o faz, e sim o pecado que habita em mim.
 
-Agostinho citou que o homem foi criado com duas possibilidades
->Posse peccare - posso pecar
->Posse non peccare - posso não pecar
+Agostinho citou que o homem foi criado com duas possibilidades:
+**Posse peccare - posso pecar.**
+**Posse non peccare - posso não pecar**
 
 Mas que após a queda o homem perdeu o termo: 
->posse non peccare  
+**posse non peccare - Posso não pecar.**
 E ganhou o termo: 
->non posse non peccare.
+**non posse non peccare - Não posso não pecar.**
 
 
 > **João Calvino**  
 > “Tudo o que você vê de bom em mim é Cristo. Tudo o que você vê de mau em mim sou eu mesmo.”
+
