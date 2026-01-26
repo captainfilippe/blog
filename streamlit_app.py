@@ -5,6 +5,7 @@ import frontmatter
 import requests
 import uuid
 import markdown
+from PIL import Image
 # =========================
 # CONFIGURAÇÃO DA PÁGINA
 # =========================
@@ -42,23 +43,37 @@ requests.post(
 
 st.markdown("""
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&family=Inter:wght@400;600&display=swap');
+
+/* Títulos com fonte Serifada (mais clássico/teológico) */
 .post-title {
-    font-size: 26px;
-    font-weight: 600;
-    margin-bottom: 4px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 34px;
+    color: #1a1a1a;
+    line-height: 1.2;
 }
-.post-meta {
-    color: #777;
-    font-size: 14px;
-    margin-bottom: 16px;
+
+/* Corpo do texto com fonte Sans-Serif (melhor leitura) */
+body, .stMarkdown {
+    font-family: 'Inter', sans-serif;
+    color: #333;
 }
-.post-card {
-    max-width: 820px;
-    margin: auto;
-    margin-bottom: 48px;
+
+/* Estilização dos Cards na Home */
+div[data-testid="stVerticalBlock"] > div:has(div.post-card) {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    width: 100px !important;
+    height: 100px !important;
 }
-.post-image img {
-    border-radius: 6px;
+
+/* Força a imagem a ter um tamanho fixo e cortar o excesso sem deformar */
+.fixed-image img {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: cover; /* Faz o "crop" inteligente da imagem */
+    border-radius: 8px;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -147,7 +162,9 @@ if "post" in st.session_state:
 
     # IMAGEM DO ARTIGO
     if post["image"]:
-        st.image(post["image"], use_container_width=True)
+        img = Image.open(post["image"])
+        img = img.resize((600, 250))  # largura, altura
+        st.image(img)
 
     st.markdown(f"<div class='post-title'>{post['title']}</div>", unsafe_allow_html=True)
     st.markdown(
@@ -164,27 +181,31 @@ if "post" in st.session_state:
 # VIEW: LISTA DE POSTS (HOME)
 # =========================
 else:
-    for post in posts:
-        with st.container():
-            st.markdown("<div class='post-card'>", unsafe_allow_html=True)
-
-            # IMAGEM NO HOME
-            if post["image"]:
-                st.image(post["image"], use_container_width=True)
-
-            st.markdown(f"<div class='post-title'>{post['title']}</div>", unsafe_allow_html=True)
-            st.markdown(
-                f"<div class='post-meta'>{post['author']} · {post['date'].strftime('%d %b %Y')}</div>",
-                unsafe_allow_html=True
-            )
-
-            st.write(post["summary"])
-
-            if st.button("Leia mais →", key=post["slug"]):
-                st.session_state["post"] = post["slug"]
-                st.rerun()
+    # Cria colunas: 2 posts por linha
+    for i in range(0, len(posts), 2):
+        cols = st.columns(2)
+        for j in range(2):
+            if i + j < len(posts):
+                post = posts[i + j]
+                with cols[j]:
+                    if post["image"]:
+                        img = Image.open(post["image"])
+                        img = img.resize((600, 250))  # largura, altura
+                        st.image(img)
+                    st.markdown(f"<div class='post-title' style='font-size:20px;'>{post['title']}</div>", unsafe_allow_html=True)
+                    st.caption(f"{post['date'].strftime('%d %b %Y')}")
+                    st.write(post["summary"][:100] + "...") # Resumo curto
+                    if st.button("Leia mais", key=post["slug"]):
+                        st.session_state["post"] = post["slug"]
+                        st.rerun()
 
             st.markdown("</div>", unsafe_allow_html=True)
 
-
+# with st.sidebar:
+#     st.image("assets/capitao.jpg", width=100)
+#     st.markdown("### Sobre o Rota")
+#     #st.info("Navegando pelas águas profundas da teologia reformada e estudos bíblicos.")
+    
+#     st.divider()
+ 
 #python -m streamlit run streamlit_app.py --server.address=10.18.206.58 --server.port=8510
