@@ -13,15 +13,14 @@ tags: ["teologia", "bíblia", "palavra", "inspiração"]
 ### A fé como fundamento
 
 **Hebreus 11:6 (NVI)**  
-[6] Sem fé é impossível agradar a Deus, pois quem dele se aproxima precisa crer que ele existe e que recompensa aqueles que o buscam.
+>Sem fé é impossível agradar a Deus, pois quem dele se aproxima precisa crer que ele existe e que recompensa aqueles que o buscam.
 
 > “É necessário crer para compreender; pois, se não crerdes, não compreendereis.”  
 > **Agostinho de Hipona** — Bispo no Século IV–V
 
 **Romanos 10:17 (NAA)**  
-[17] E, assim, a fé vem pelo ouvir, e o ouvir, pela palavra de Cristo.
-
-Fé na Palavra para conhecer o amor, o plano de salvação e a vontade de Deus.
+>E, assim, a fé vem pelo ouvir, e o ouvir, pela palavra de Cristo.
+>Fé na Palavra para conhecer o amor, o plano de salvação e a vontade de Deus.
 
 ---
 
@@ -104,12 +103,12 @@ Os católicos utilizam o Antigo Testamento traduzido para o grego como oficial, 
 ## Inspiração das Escrituras
 
 **2 Pedro 1:20–21 (NAA)**  
-[20] Primeiramente, porém, saibam que nenhuma profecia da Escritura provém de interpretação pessoal;  
-[21] porque nunca jamais qualquer profecia foi dada por vontade humana; entretanto, homens falaram da parte de Deus, movidos pelo Espírito Santo.
+>Primeiramente, porém, saibam que nenhuma profecia da Escritura provém de interpretação pessoal;  
+>porque nunca jamais qualquer profecia foi dada por vontade humana; entretanto, homens falaram da parte de Deus, movidos pelo Espírito Santo.
 
 **2 Timóteo 3:16–17 (NAA)**  
-[16] Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção, para a educação na justiça,  
-[17] a fim de que o servo de Deus seja perfeito e perfeitamente habilitado para toda boa obra.
+>Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção, para a educação na justiça,  
+>a fim de que o servo de Deus seja perfeito e perfeitamente habilitado para toda boa obra.
 
 ### O termo *Theopneustos*
 
@@ -143,35 +142,35 @@ Traduzido como inspirado por Deus, referente ao recebimento, pelo homem, da mens
 Revelação através da criação de Deus.
 
 **Salmos 19:1–2 (NAA)**  
-[1] Os céus proclamam a glória de Deus, e o firmamento anuncia as obras das suas mãos.  
-[2] Um dia discursa a outro dia, e uma noite revela conhecimento a outra noite.
+>Os céus proclamam a glória de Deus, e o firmamento anuncia as obras das suas mãos.  
+>Um dia discursa a outro dia, e uma noite revela conhecimento a outra noite.
 
 ### Revelação com intervenção divina
 
 Revelação através de Deus intervir na história.
 
 **Gênesis 12:1 (NAA)**  
-[1] O Senhor disse a Abrão: — Saia da sua terra, da sua parentela e da casa do seu pai e vá para a terra que lhe mostrarei.
+>O Senhor disse a Abrão: — Saia da sua terra, da sua parentela e da casa do seu pai e vá para a terra que lhe mostrarei.
 
 ### Revelação especial
 
 Revelação por meio da Bíblia, Palavra de Deus, escrita por homens inspirados por Deus.
 
 **Hebreus 4:12 (NAA)**  
-[12] Porque a palavra de Deus é viva e eficaz, e mais cortante do que qualquer espada de dois gumes, e penetra até o ponto de dividir alma e espírito, juntas e medulas, e é apta para julgar os pensamentos e propósitos do coração.
+>Porque a palavra de Deus é viva e eficaz, e mais cortante do que qualquer espada de dois gumes, e penetra até o ponto de dividir alma e espírito, juntas e medulas, e é apta para julgar os pensamentos e propósitos do coração.
 
 ### Revelação encarnada
 
 A Palavra de Deus se encarna em Cristo Jesus.
 
 **João 1:1–3 (NAA)**  
-[1] No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.  
-[2] Ele estava no princípio com Deus.  
-[3] Todas as coisas foram feitas por ele, e, sem ele, nada do que foi feito se fez.
+>No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.  
+>Ele estava no princípio com Deus.  
+>Todas as coisas foram feitas por ele, e, sem ele, nada do que foi feito se fez.
 
 **Hebreus 1:1–2 (NAA)**  
-[1] Antigamente, Deus falou, muitas vezes e de muitas maneiras, aos pais, pelos profetas,  
-[2] mas, nestes últimos dias, nos falou pelo Filho, a quem constituiu herdeiro de todas as coisas e pelo qual também fez o universo.
+>Antigamente, Deus falou, muitas vezes e de muitas maneiras, aos pais, pelos profetas,  
+>mas, nestes últimos dias, nos falou pelo Filho, a quem constituiu herdeiro de todas as coisas e pelo qual também fez o universo.
 
 ---
 
@@ -180,12 +179,12 @@ A Palavra de Deus se encarna em Cristo Jesus.
 É necessário pedir a Deus iluminação para o entendimento da Palavra, mesmo com estudos de forma acadêmica.
 
 **Salmos 119:34 (NAA)**  
-[34] Dá-me entendimento, e guardarei a tua lei; de todo o coração a cumprirei.
+>Dá-me entendimento, e guardarei a tua lei; de todo o coração a cumprirei.
 
 A iluminação é a capacidade dada pelo Espírito de Deus para crer e entender as passagens bíblicas.
 
 **1 Coríntios 2:14 (NAA)**  
-[14] Ora, a pessoa natural não aceita as coisas do Espírito de Deus, porque lhe são loucura. E ela não pode entendê-las, porque elas se discernem espiritualmente.
+>Ora, a pessoa natural não aceita as coisas do Espírito de Deus, porque lhe são loucura. E ela não pode entendê-las, porque elas se discernem espiritualmente.
 
 ### A dualidade da Palavra de Deus
 
@@ -197,5 +196,5 @@ A Palavra de Deus, sendo uma espada, produz reações diferentes nas pessoas:
 - Amor a Deus ou amor às coisas do mundo  
 
 **1 Coríntios 1:18–19 (NAA)**  
-[18] Certamente a palavra da cruz é loucura para os que se perdem, mas para nós, que somos salvos, ela é poder de Deus.  
-[19] Pois está escrito: “Destruirei a sabedoria dos sábios e aniquilarei a inteligência dos inteligentes.”
+>Certamente a palavra da cruz é loucura para os que se perdem, mas para nós, que somos salvos, ela é poder de Deus.  
+>Pois está escrito: “Destruirei a sabedoria dos sábios e aniquilarei a inteligência dos inteligentes.”
