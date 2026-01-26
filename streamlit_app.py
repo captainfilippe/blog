@@ -4,7 +4,7 @@ from datetime import datetime
 import frontmatter
 import requests
 import uuid
-
+import markdown
 # =========================
 # CONFIGURAÇÃO DA PÁGINA
 # =========================
@@ -97,7 +97,15 @@ def load_posts():
                 "author": post.get("author", "Autor desconhecido"),
                 "date": date,
                 "summary": post.get("summary", ""),
-                "content": post.content,
+                "content": markdown.markdown(
+                    post.content,
+                    extensions=[
+                        "fenced_code",
+                        "tables",
+                        "toc",
+                        "nl2br"
+                    ]
+                ),
                 "tags": post.get("tags", []),
                 "image": post.get("image", None)
             })
@@ -174,7 +182,9 @@ else:
 
             if st.button("Leia mais →", key=post["slug"]):
                 st.session_state["post"] = post["slug"]
+                st.rerun()
 
             st.markdown("</div>", unsafe_allow_html=True)
 
 
+#python -m streamlit run streamlit_app.py --server.address=10.18.206.58 --server.port=8510
