@@ -222,6 +222,18 @@ else:
 
             st.markdown("</div>", unsafe_allow_html=True)
 
+RSS_PATH = pathlib.Path("rss.xml")
+
+if RSS_PATH.exists():
+    st.markdown(
+        f"""
+        <link rel="alternate" type="application/rss+xml"
+              title="Rota Teológica RSS"
+              href="https://rotateologica.streamlit.app/rss.xml">
+        """,
+        unsafe_allow_html=True
+    )
+
 # with st.sidebar:
 #     st.image("assets/capitao.jpg", width=100)
 #     st.markdown("### Sobre o Rota")
