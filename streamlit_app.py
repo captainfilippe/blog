@@ -45,30 +45,64 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&family=Inter:wght@400;600&display=swap');
 
-/* Títulos com fonte Serifada (mais clássico/teológico) */
+/* =====================
+   Tipografia
+===================== */
+
+/* Título do post – estilo faixa */
 .post-title {
     font-family: 'Crimson Pro', serif;
-    font-size: 34px;
-    color: #1a1a1a;
+    font-size: 32px;
     line-height: 1.2;
+    color: Black;
+            
+    display: inline-block;
+
+    border-radius: 4px;
+    margin-bottom: 1rem;
 }
 
-/* Corpo do texto com fonte Sans-Serif (melhor leitura) */
+/* Corpo do texto */
 body, .stMarkdown {
     font-family: 'Inter', sans-serif;
     color: #333;
 }
 
-/* Estilização dos Cards na Home */
-div[data-testid="stVerticalBlock"] > div:has(div.post-card) {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 2rem;
+/* =====================
+   Card do Post
+===================== */
+
+/* O container do card */
+.post-card {
+    background: white;
+    border-radius: 10px;
+
+    padding: 1.5rem;
     margin-bottom: 2rem;
-    width: 100px !important;
-    height: 100px !important;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 4px 10px rgba(0, 0, 0, 0.06),
+        0 1px 3px rgba(0, 0, 0, 0.04);
+
+    transition: all 0.25s ease;
 }
 
+/* Efeito hover elegante */
+.post-card:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.10),
+        0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Ajuste do bloco vertical do Streamlit */
+div[data-testid="stVerticalBlock"] > div:has(div.post-card) {
+    padding-bottom: 2rem;
+}
 </style>
+
 """, unsafe_allow_html=True)
 
 # =========================
@@ -174,7 +208,8 @@ else:
                         img = Image.open(post["image"])
                         img = img.resize((600, 250))  # largura, altura
                         st.image(img)
-                    st.markdown(f"<div class='post-title' style='font-size:20px;'>{post['title']}</div>", unsafe_allow_html=True)
+                    #st.markdown(f"<div class='post-title' style='font-size:20px;'>{post['title']}</div>", unsafe_allow_html=True)
+                    st.info(f"{post['title']}")
                     #st.markdown(f"<div class='post-meta'>{post['author']} · {post['date'].strftime('%d %b %Y')}</div>", unsafe_allow_html=True)
                     st.caption(f"{post['author']} · {post['date'].strftime('%d %b %Y')}")
                     st.write(post["summary"][:100] + "...") # Resumo curto
