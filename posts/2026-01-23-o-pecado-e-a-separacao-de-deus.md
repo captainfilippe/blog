@@ -194,7 +194,7 @@ E ganhou o termo:
 **non posse non peccare - Não posso não pecar.**
 
 
-> **João Calvino**  
-> “Tudo o que você vê de bom em mim é Cristo. Tudo o que você vê de mau em mim sou eu mesmo.”
+**João Calvino**  
+“Tudo o que você vê de bom em mim é Cristo. Tudo o que você vê de mau em mim sou eu mesmo.”
 
 
