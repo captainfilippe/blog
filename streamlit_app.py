@@ -12,9 +12,8 @@ from PIL import Image
 st.set_page_config(
     page_title="Rota Teológica",
     page_icon="⛵",
-    layout="centered"
+    layout="wide"
 )
-
 
 MEASUREMENT_ID = "G-FRX42JQ16R"
 API_SECRET = "UzllgCsCTTugrmE7114Bmg"
@@ -200,9 +199,9 @@ if "post" in st.session_state:
 # =========================
 else:
     # Cria colunas: 2 posts por linha
-    for i in range(0, len(posts), 2):
-        cols = st.columns(2)
-        for j in range(2):
+    for i in range(0, len(posts), 4):
+        cols = st.columns(4)
+        for j in range(4):
             if i + j < len(posts):
                 post = posts[i + j]
                 with cols[j]:
