@@ -9,24 +9,6 @@ from PIL import Image
 # =========================
 # CONFIGURAÇÃO DA PÁGINA
 # =========================
-import json
-from pathlib import Path
-
-STATS_FILE = Path("stats.json")
-
-def increment_visit():
-    if not STATS_FILE.exists():
-        STATS_FILE.write_text(json.dumps({"visits": 0}))
-
-    data = json.loads(STATS_FILE.read_text())
-    data["visits"] += 1
-
-    STATS_FILE.write_text(json.dumps(data))
-
-if "visit" not in st.session_state:
-    st.session_state.visit = True
-    increment_visit()
-
 
 st.set_page_config(
     page_title="Rota Teológica",
@@ -34,26 +16,10 @@ st.set_page_config(
     layout="wide"
 )
 
+
 MEASUREMENT_ID = "G-FRX42JQ16R"
 API_SECRET = "UzllgCsCTTugrmE7114Bmg"
 
-client_id = str(uuid.uuid4())
-
-requests.post(
-    f"https://www.google-analytics.com/mp/collect?measurement_id={MEASUREMENT_ID}&api_secret={API_SECRET}",
-    json={
-        "client_id": client_id,
-        "events": [
-            {
-                "name": "page_view",
-                "params": {
-                    "page_title": "Rota Teológica",
-                    "page_location": "https://rotateologica.streamlit.app"
-                }
-            }
-        ]
-    }
-)
 
 # =========================
 # CSS BÁSICO (LEITURA)
@@ -195,6 +161,28 @@ st.divider()
 if "post" in st.session_state:
     slug = st.session_state["post"]
     post = next(p for p in posts if p["slug"] == slug)
+
+    # 🔹 REGISTRA LEITURA DO POST (1x por sessão)
+    view_key = f"viewed_{post['slug']}"
+
+    if view_key not in st.session_state:
+        st.session_state[view_key] = True
+
+        requests.post(
+            f"https://www.google-analytics.com/mp/collect?measurement_id={MEASUREMENT_ID}&api_secret={API_SECRET}",
+            json={
+                "client_id": str(uuid.uuid4()),
+                "events": [
+                    {
+                        "name": "post_read",
+                        "params": {
+                            "post_title": post["title"],
+                            "post_slug": post["slug"]
+                        }
+                    }
+                ]
+            }
+        )
 
     st.button("← Voltar", on_click=go_home)
 
