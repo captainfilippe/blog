@@ -2,3 +2,4 @@ streamlit
 python-frontmatter
 Markdown
 Pillow
+requests
