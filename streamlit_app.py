@@ -9,6 +9,25 @@ from PIL import Image
 # =========================
 # CONFIGURAÇÃO DA PÁGINA
 # =========================
+import json
+from pathlib import Path
+
+STATS_FILE = Path("stats.json")
+
+def increment_visit():
+    if not STATS_FILE.exists():
+        STATS_FILE.write_text(json.dumps({"visits": 0}))
+
+    data = json.loads(STATS_FILE.read_text())
+    data["visits"] += 1
+
+    STATS_FILE.write_text(json.dumps(data))
+
+if "visit" not in st.session_state:
+    st.session_state.visit = True
+    increment_visit()
+
+
 st.set_page_config(
     page_title="Rota Teológica",
     page_icon="⛵",
