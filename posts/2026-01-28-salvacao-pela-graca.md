@@ -201,8 +201,6 @@ Não perseveramos sozinhos — o Espírito Santo nos guarda.
 
 ---
 
-### A cadeia dourada da salvação
-
 **Romanos 8:29–30 (NAA)**  
 >Pois aqueles que Deus de antemão conheceu ele também predestinou para serem conformes à imagem de seu Filho.  
 >E aos que predestinou, a esses também chamou;  
